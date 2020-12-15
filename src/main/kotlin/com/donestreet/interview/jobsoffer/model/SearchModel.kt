@@ -4,7 +4,7 @@ import javax.persistence.*
 
 @Entity
 @Table(name="searches")
-data class Search(
+class Search(
         //Todo("Review data types");
         val time: String,
         val description: String,

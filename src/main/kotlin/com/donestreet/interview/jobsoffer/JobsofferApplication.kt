@@ -11,23 +11,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource
 import org.springframework.web.filter.CorsFilter
 
 @SpringBootApplication
-class JobsofferApplication{
-//	@Bean
-//	fun simpleCorsFilter(): FilterRegistrationBean<CorsFilter>{
-//
-//		val source = UrlBasedCorsConfigurationSource()
-//		val config = CorsConfiguration()
-//		config.allowCredentials = true
-//		config.allowedOrigins = listOf("http://localhost:8080")
-//		config.allowedMethods = listOf("*")
-//		config.allowedHeaders = listOf("*")
-//		source.registerCorsConfiguration("/**",config)
-//
-//		val bean = FilterRegistrationBean(CorsFilter(source))
-//		bean.order = Ordered.HIGHEST_PRECEDENCE
-//		return bean
-//	}
-}
+class JobsofferApplication
 
 fun main(args: Array<String>) {
 	runApplication<JobsofferApplication>(*args)
